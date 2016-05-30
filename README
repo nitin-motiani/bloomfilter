@@ -3,6 +3,5 @@ A simple Java implementation of BloomFilter.
 
 * User can initialize a BloomFilter with bucket size and number of hash functions as arguments.
 * For hash functions, murmur hash implementation of Google Guava library is used. 
-* To create multiple hash values, initially 2 hash values are calculated using murmur hash, and then their linear
-  combination is used to calculate the indices in the bucket. 
+* To create multiple hash values, initially 2 hash values are calculated using murmur hash, and then their linear combination is used to calculate the indices in the bucket. 
 
